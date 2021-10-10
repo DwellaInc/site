@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/site/static/css/main.4db37d4b.chunk.css",
+    "main.js": "/site/static/js/main.8fb9d567.chunk.js",
+    "main.js.map": "/site/static/js/main.8fb9d567.chunk.js.map",
+    "runtime-main.js": "/site/static/js/runtime-main.9fafb7b2.js",
+    "runtime-main.js.map": "/site/static/js/runtime-main.9fafb7b2.js.map",
+    "static/js/2.7e3912c1.chunk.js": "/site/static/js/2.7e3912c1.chunk.js",
+    "static/js/2.7e3912c1.chunk.js.map": "/site/static/js/2.7e3912c1.chunk.js.map",
+    "index.html": "/site/index.html",
+    "static/css/main.4db37d4b.chunk.css.map": "/site/static/css/main.4db37d4b.chunk.css.map",
+    "static/js/2.7e3912c1.chunk.js.LICENSE.txt": "/site/static/js/2.7e3912c1.chunk.js.LICENSE.txt",
+    "static/media/About-UsArtboard-1.a4692833.png": "/site/static/media/About-UsArtboard-1.a4692833.png",
+    "static/media/About-UsArtboard-2.1cdfa1f9.png": "/site/static/media/About-UsArtboard-2.1cdfa1f9.png",
+    "static/media/About-UsArtboard-3.5fc4462d.png": "/site/static/media/About-UsArtboard-3.5fc4462d.png",
+    "static/media/About-UsArtboard-4.fa19fc50.png": "/site/static/media/About-UsArtboard-4.fa19fc50.png",
+    "static/media/About-UsArtboard-5.cd9e32c5.png": "/site/static/media/About-UsArtboard-5.cd9e32c5.png",
+    "static/media/About-UsArtboard-6.d46a1c02.png": "/site/static/media/About-UsArtboard-6.d46a1c02.png",
+    "static/media/About-UsArtboard-7.a143b81b.png": "/site/static/media/About-UsArtboard-7.a143b81b.png",
+    "static/media/GetInTouch_House.f77e8bf8.png": "/site/static/media/GetInTouch_House.f77e8bf8.png",
+    "static/media/Intro_HouseUp.26f039fd.png": "/site/static/media/Intro_HouseUp.26f039fd.png",
+    "static/media/Invest.6bf0f5d2.svg": "/site/static/media/Invest.6bf0f5d2.svg",
+    "static/media/FooterLinks.scss": "/site/static/media/Poppins-Regular.8081832f.ttf",
+    "static/media/Register.69933237.svg": "/site/static/media/Register.69933237.svg",
+    "static/media/Track.8ba8ebf6.svg": "/site/static/media/Track.8ba8ebf6.svg",
+    "static/media/close-icon.aac73cf0.svg": "/site/static/media/close-icon.aac73cf0.svg",
+    "static/media/down-button.d9b37ddf.svg": "/site/static/media/down-button.d9b37ddf.svg",
+    "static/media/dwella-logo.7bfecf9c.svg": "/site/static/media/dwella-logo.7bfecf9c.svg",
+    "static/media/hamburger.04ce11bc.svg": "/site/static/media/hamburger.04ce11bc.svg",
+    "static/media/Hero.scss": "/site/static/media/hero-bg.fce85c56.svg",
+    "static/media/instagram.b976bace.svg": "/site/static/media/instagram.b976bace.svg",
+    "static/media/linkedin.d0bf106b.svg": "/site/static/media/linkedin.d0bf106b.svg",
+    "static/media/twitter.b2efda9e.svg": "/site/static/media/twitter.b2efda9e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9fafb7b2.js",
+    "static/js/2.7e3912c1.chunk.js",
+    "static/css/main.4db37d4b.chunk.css",
+    "static/js/main.8fb9d567.chunk.js"
+  ]
+}
