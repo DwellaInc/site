@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.eee246b8.chunk.css",
-    "main.js": "/static/js/main.8fb9d567.chunk.js",
-    "main.js.map": "/static/js/main.8fb9d567.chunk.js.map",
+    "main.js": "/static/js/main.88de6160.chunk.js",
+    "main.js.map": "/static/js/main.88de6160.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b01f5e21.js",
     "runtime-main.js.map": "/static/js/runtime-main.b01f5e21.js.map",
     "static/js/2.7e3912c1.chunk.js": "/static/js/2.7e3912c1.chunk.js",
@@ -25,17 +25,17 @@
     "static/media/Track.8ba8ebf6.svg": "/static/media/Track.8ba8ebf6.svg",
     "static/media/close-icon.aac73cf0.svg": "/static/media/close-icon.aac73cf0.svg",
     "static/media/down-button.d9b37ddf.svg": "/static/media/down-button.d9b37ddf.svg",
-    "static/media/dwella-logo.7bfecf9c.svg": "/static/media/dwella-logo.7bfecf9c.svg",
     "static/media/hamburger.04ce11bc.svg": "/static/media/hamburger.04ce11bc.svg",
     "static/media/Hero.scss": "/static/media/hero-bg.fce85c56.svg",
     "static/media/instagram.b976bace.svg": "/static/media/instagram.b976bace.svg",
     "static/media/linkedin.d0bf106b.svg": "/static/media/linkedin.d0bf106b.svg",
+    "static/media/logo.cc21f984.svg": "/static/media/logo.cc21f984.svg",
     "static/media/twitter.b2efda9e.svg": "/static/media/twitter.b2efda9e.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.b01f5e21.js",
     "static/js/2.7e3912c1.chunk.js",
     "static/css/main.eee246b8.chunk.css",
-    "static/js/main.8fb9d567.chunk.js"
+    "static/js/main.88de6160.chunk.js"
   ]
 }
