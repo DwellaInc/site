@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Header.scss';
-import logo from '../../assets/logo/dwella-logo.svg';
+import logo from '../../assets/logo/logo.svg';
 import Button from '../Button/Button';
 import hamburger from '../../assets/images/hamburger.svg';
 import close from '../../assets/images/close-icon.svg';

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.scss';
-import logo from '../../assets/logo/dwella-logo.svg';
+import logo from '../../assets/logo/logo.svg';
 import instagram from '../../assets/images/instagram.svg';
 import twitter from '../../assets/images/twitter.svg';
 import linkedin from '../../assets/images/linkedin.svg';
