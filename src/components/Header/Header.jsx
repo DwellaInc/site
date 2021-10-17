@@ -83,7 +83,19 @@ export default function Header() {
         {links.map((link) => {
           return (
             <>
-              <Button className="btn-nav" text={link.title} link={link.link} />
+              <Button
+                className="btn-nav"
+                text={link.title}
+                link={link.link}
+                onClick={() => {
+                  if (link.anchor) {
+                    document.getElementById(link.anchor).scrollIntoView({
+                      behavior: 'smooth',
+                    });
+                  }
+                  handleOpenDropdown();
+                }}
+              />
             </>
           );
         })}
