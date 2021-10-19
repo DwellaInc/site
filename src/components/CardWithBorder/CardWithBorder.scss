@@ -12,11 +12,21 @@
   padding: 3rem 2rem;
   border-radius: 20px;
   position: relative;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
 
-  &:focus-within {
-    height: fit-content;
+  @include mobile {
+    width: 100%;
+  }
+
+  &-open {
+    @extend .CWB;
+    height: 600px;
     background-color: $PrimaryLight;
-    transition: all 0.5s ease-in-out;
+
+    @include mobile {
+      max-height: 520px;
+    }
   }
 
   &-button {
@@ -46,11 +56,19 @@
     align-items: center;
     margin-bottom: 2rem;
     min-height: 9rem;
+
+    @include mobile {
+      width: 100%;
+    }
   }
 
   &-expand {
     position: absolute;
     bottom: 1rem;
     left: 45%;
+  }
+
+  &-text {
+    height: auto;
   }
 }

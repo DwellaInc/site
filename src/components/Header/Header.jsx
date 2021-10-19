@@ -7,7 +7,6 @@ import close from '../../assets/images/close-icon.svg';
 
 export default function Header() {
   const [openDropdown, setOpenDrowpdown] = useState(false);
-  const [dropdownClass, setDropdownClass] = useState('hidden');
 
   const links = [
     { title: 'About Us', anchor: 'about-us' },
@@ -19,12 +18,6 @@ export default function Header() {
 
   const handleOpenDropdown = () => {
     setOpenDrowpdown(!openDropdown);
-
-    if (dropdownClass === 'hidden') {
-      setDropdownClass('header-dropdown');
-    } else {
-      setDropdownClass('hidden');
-    }
   };
 
   return (
@@ -79,7 +72,7 @@ export default function Header() {
           onClick={() => handleOpenDropdown()}
         />
       </div>
-      <div className={dropdownClass}>
+      <div className={openDropdown ? 'header-dropdown' : 'hidden'}>
         {links.map((link) => {
           return (
             <>

@@ -8,7 +8,7 @@
   margin: 1.5rem 2rem;
 
   @include mobile {
-    width: 25vw;
+    width: 40vw;
     margin: 1rem 0.5rem;
   }
 
@@ -18,6 +18,12 @@
 
     @include mobile {
       height: 4rem;
+    }
+  }
+
+  &-text {
+    @include mobile {
+      text-align: center;
     }
   }
 }
