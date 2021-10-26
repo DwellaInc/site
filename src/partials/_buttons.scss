@@ -10,6 +10,7 @@
   border: none;
   font-family: 'Poppins';
   cursor: pointer;
+  transition: all 0.25s ease-in-out;
 
   @include tablet {
     font-size: 14px;
@@ -20,6 +21,10 @@
   &-primary {
     @include button;
     background: $Primary;
+
+    &:hover {
+      background-color: $PrimaryDark;
+    }
   }
 
   &-secondary {
@@ -51,5 +56,9 @@
     background-color: transparent;
     padding: 10px 16px;
     text-decoration: none;
+
+    &:hover {
+      color: $Primary;
+    }
   }
 }

@@ -9,9 +9,9 @@ export default function WalkThrough() {
       <div className="walk-through-title">
         <h3>Walkthrough</h3>
       </div>
-      {walkThroughInfo.map((item) => {
+      {walkThroughInfo.map((item, i) => {
         return (
-          <>
+          <React.Fragment key={i}>
             <TextWithImage
               title={item.title}
               text={item.text}
@@ -19,7 +19,7 @@ export default function WalkThrough() {
               image={item.image}
               background={item.background}
             />
-          </>
+          </React.Fragment>
         );
       })}
     </section>

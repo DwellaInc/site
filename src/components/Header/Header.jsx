@@ -34,10 +34,9 @@ export default function Header() {
           }
         />
         <div className="button-container">
-          {links.map((link) => {
-            console.log(link.anchor);
+          {links.map((link, i) => {
             return (
-              <>
+              <React.Fragment key={i}>
                 <Button
                   className="btn-nav"
                   text={link.title}
@@ -50,7 +49,7 @@ export default function Header() {
                     }
                   }}
                 />
-              </>
+              </React.Fragment>
             );
           })}
           <div className="button-wrap">
@@ -73,9 +72,9 @@ export default function Header() {
         />
       </div>
       <div className={openDropdown ? 'header-dropdown' : 'hidden'}>
-        {links.map((link) => {
+        {links.map((link, i) => {
           return (
-            <>
+            <React.Fragment key={i}>
               <Button
                 className="btn-nav"
                 text={link.title}
@@ -89,7 +88,7 @@ export default function Header() {
                   handleOpenDropdown();
                 }}
               />
-            </>
+            </React.Fragment>
           );
         })}
         <div className="button-wrap">

@@ -8,15 +8,15 @@ export default function AboutUs() {
     <section className="about-us" id="about-us">
       <h3 className="about-us-title">About Us</h3>
       <div className="about-us-container">
-        {employees.map((employee) => {
+        {employees.map((employee, i) => {
           return (
-            <>
+            <React.Fragment key={i}>
               <EmployeeCard
                 image={employee.image}
                 name={employee.name}
                 position={employee.position}
               />
-            </>
+            </React.Fragment>
           );
         })}
       </div>
@@ -30,16 +30,16 @@ export default function AboutUs() {
         </p>
       </div>
       <div className="about-us-container">
-        {employees2.map((employee) => {
+        {employees2.map((employee, i) => {
           return (
-            <>
+            <React.Fragment key={i}>
               <EmployeeCard
                 image={employee.image}
                 name={employee.name}
                 position={employee.position}
                 secondary
               />
-            </>
+            </React.Fragment>
           );
         })}
       </div>

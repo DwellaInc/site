@@ -14,11 +14,11 @@ export default function FooterLinks({ title, links }) {
     <div className="footer-links">
       <h6 className="footer-links-title">{title}</h6>
       <div className="footer-links-container">
-        {links.map((link) => {
+        {links.map((link, i) => {
           return (
-            <>
+            <React.Fragment key={i}>
               <FooterLink link={link.url} text={link.text} />
-            </>
+            </React.Fragment>
           );
         })}
       </div>

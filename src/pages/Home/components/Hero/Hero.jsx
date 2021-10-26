@@ -33,7 +33,7 @@ export default function Hero() {
           />
         </form>
       </div>
-      <img src={heroImg} className="hero-image" alt="hero image" />
+      <img src={heroImg} className="hero-image" alt="hero" />
     </section>
   );
 }

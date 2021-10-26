@@ -13,11 +13,11 @@ export default function Footer() {
       <img className="logo footer-logo" src={logo} alt="Dwella Logo" />
 
       <div className="footer-container">
-        {footerLinks.map((link) => {
+        {footerLinks.map((link, i) => {
           return (
-            <>
+            <React.Fragment key={i}>
               <FooterLinks links={link.links} title={link.title} />
-            </>
+            </React.Fragment>
           );
         })}
       </div>
