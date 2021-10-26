@@ -13,11 +13,7 @@
   border-radius: 20px;
   position: relative;
   cursor: pointer;
-  transition: all 0.25s ease-in-out;
-
-  &:hover {
-    background-color: $PrimaryLight;
-  }
+  transition: all 0.5s ease-in-out;
 
   @include mobile {
     width: 100%;
