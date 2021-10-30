@@ -13,7 +13,7 @@
   }
 
   @include mobile {
-    padding: 3rem 0;
+    padding: 3rem 1.5rem;
   }
 
   &-grey {
@@ -32,6 +32,10 @@
   &-text {
     max-width: 400px;
     align-self: center;
+
+    @include mobile {
+      max-width: 100%;
+    }
   }
 
   &-container {
@@ -40,5 +44,9 @@
     align-items: center;
     width: 70vw;
     max-width: 800px;
+
+    @include mobile {
+      width: 100%;
+    }
   }
 }

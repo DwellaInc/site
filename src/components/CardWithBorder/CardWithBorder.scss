@@ -9,7 +9,7 @@
   height: 220px;
   border: 3px solid $PrimaryLight;
   overflow: hidden;
-  padding: 3rem 2rem;
+  padding: 2rem 1.5rem;
   border-radius: 20px;
   position: relative;
   cursor: pointer;
@@ -21,6 +21,7 @@
 
   @include mobile {
     width: 100%;
+    margin: 0.5rem 0;
   }
 
   &-open {

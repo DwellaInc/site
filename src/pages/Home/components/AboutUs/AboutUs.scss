@@ -9,7 +9,7 @@
   padding: 6rem 0;
 
   @include mobile {
-    padding: 4rem 0;
+    padding: 4rem 1.5rem;
   }
 
   &-container {
@@ -28,5 +28,9 @@
     text-align: center;
     width: 70vw;
     max-width: 500px;
+
+    @include mobile {
+      width: 100%;
+    }
   }
 }

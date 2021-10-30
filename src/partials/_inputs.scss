@@ -17,10 +17,6 @@ input {
     border-color: $Primary;
     outline: none;
   }
-
-  @include mobile {
-    width: 300px;
-  }
 }
 
 @mixin label {
@@ -50,7 +46,7 @@ textarea {
   background: white;
   border-radius: 25px;
   width: 100%;
-  margin: 1.5rem 0;
+  margin: 1rem 0;
   height: 150px;
   resize: none;
   overflow-y: scroll;
