@@ -6,6 +6,7 @@ import twitter from '../../assets/images/twitter.svg';
 import linkedin from '../../assets/images/linkedin.svg';
 import FooterLinks from '../FooterLinks/FooterLinks';
 import { footerLinks } from './info';
+import dmzImage from '../../assets/images/DMZ.png';
 
 export default function Footer() {
   return (
@@ -50,6 +51,11 @@ export default function Footer() {
             <img className="footer-icon" src={linkedin} alt="LinkedIn" />
           </a>
         </div>
+      </div>
+
+      <div className="footer-partnership">
+        <p>In partnership with </p>
+        <img src={dmzImage} alt="DMZ" />
       </div>
     </section>
   );

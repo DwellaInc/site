@@ -61,4 +61,14 @@
     margin: 1.5rem;
     margin-left: 0;
   }
+
+  &-partnership {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    img {
+      height: 40px;
+    }
+  }
 }

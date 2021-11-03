@@ -12,19 +12,26 @@ export default function Hero() {
           Dwella is a fast, simple, and affordable way to invest in real estate.
           Join our waitlist to stay updated.
         </h4>
-
         <form
-          action="https://formsubmit.co/dwellainvesting@gmail.com"
-          method="POST"
+          action="https://api.sheetmonkey.io/form/kCfxMwodx2xtDtM5MB95S9"
+          method="post"
           className="hero-input-container"
         >
-          <input type="hidden" name="_next" value="http://dwellainc.com/" />
-          <input type="hidden" name="_captcha" value="false" />
           <input
             type="email"
             placeholder="Email address"
-            name="email-register"
+            name="email"
             required
+          />
+          <input
+            type="hidden"
+            name="Created"
+            value="x-sheetmonkey-current-date-time"
+          />
+          <input
+            type="hidden"
+            name="x-sheetmonkey-redirect"
+            value="http://dwellainc.com/"
           />
           <Button
             className="btn-primary hero-button"
