@@ -4,7 +4,7 @@ import './main.scss';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import ThankYou from './pages/ThankYou/ThankYou';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
