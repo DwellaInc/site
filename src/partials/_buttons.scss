@@ -11,6 +11,7 @@
   font-family: 'Poppins';
   cursor: pointer;
   transition: all 0.25s ease-in-out;
+  width: fit-content;
 
   @include tablet {
     font-size: 14px;

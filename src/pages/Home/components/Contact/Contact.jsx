@@ -15,7 +15,11 @@ export default function Contact() {
         >
           <h3>Get in touch with us</h3>
           <div className="contact-input-container">
-            <input type="hidden" name="_next" value="http://dwellainc.com/" />
+            <input
+              type="hidden"
+              name="_next"
+              value="http://dwellainc.com/thank-you"
+            />
             <input type="hidden" name="_captcha" value="false" />
             <input
               className="contact-input"
