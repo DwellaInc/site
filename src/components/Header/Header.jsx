@@ -99,6 +99,7 @@ export default function Header() {
               document.getElementById('hero').scrollIntoView({
                 behavior: 'smooth',
               });
+              handleOpenDropdown();
             }}
           />
         </div>
