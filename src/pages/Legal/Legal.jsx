@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Legal.scss';
 import { privacy, terms } from './info';
 
 export default function Legal({ type }) {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
+
   if (type === 'privacy') {
     return (
       <section className="legal">

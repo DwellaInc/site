@@ -1,11 +1,12 @@
 import React from 'react';
 import './FooterLinks.scss';
+import { Link } from 'react-router-dom';
 
 function FooterLink({ link, text }) {
   return (
-    <a className="footer-link" href={link}>
+    <Link className="footer-link" to={link}>
       {text}
-    </a>
+    </Link>
   );
 }
 
