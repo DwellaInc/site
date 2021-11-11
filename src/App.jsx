@@ -4,6 +4,7 @@ import './main.scss';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import ThankYou from './pages/ThankYou/ThankYou';
+import Legal from './pages/Legal/Legal';
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
@@ -18,6 +19,12 @@ function App() {
           </Route>
           <Route path="/thank-you">
             <ThankYou type="contact" />
+          </Route>
+          <Route path="/privacy-policy">
+            <Legal type="privacy" />
+          </Route>
+          <Route path="/terms-and-conditions">
+            <Legal type="terms" />
           </Route>
         </Switch>
         <Footer />

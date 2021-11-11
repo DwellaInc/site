@@ -4,6 +4,7 @@ import logo from '../../assets/logo/logo.svg';
 import Button from '../Button/Button';
 import hamburger from '../../assets/images/hamburger.svg';
 import close from '../../assets/images/close-icon.svg';
+import { Link } from 'react-router-dom';
 
 export default function Header() {
   const [openDropdown, setOpenDrowpdown] = useState(false);
@@ -23,16 +24,9 @@ export default function Header() {
   return (
     <section className="header">
       <div className="header-container">
-        <img
-          className="logo header-logo"
-          src={logo}
-          alt="Dwella Logo"
-          onClick={() =>
-            document.getElementById('hero').scrollIntoView({
-              behavior: 'smooth',
-            })
-          }
-        />
+        <Link to="/">
+          <img className="logo header-logo" src={logo} alt="Dwella Logo" />
+        </Link>
         <div className="button-container">
           {links.map((link, i) => {
             return (

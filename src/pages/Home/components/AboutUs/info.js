@@ -25,7 +25,7 @@ export const employees2 = [
   },
   {
     image: AndianiImg,
-    name: 'Andiani Yunita',
+    name: 'Andriani Yunita',
     position: 'Front End Developer',
   },
   { image: AnhImg, name: 'Anh Lam', position: 'UI/UX Designer' },

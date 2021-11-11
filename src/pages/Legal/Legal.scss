@@ -1,0 +1,32 @@
+@import '../../main.scss';
+
+.legal {
+  margin-top: 4rem;
+  padding: 2rem;
+  @include desktopXLPaddingLR;
+
+  @include desktop {
+    @include desktopPaddingLR;
+  }
+
+  @include mobile {
+    padding: 2rem 1.25rem;
+  }
+
+  h2 {
+    text-align: center;
+
+    @include mobile {
+      font-size: 26px;
+    }
+  }
+
+  p {
+    margin: 1rem 0;
+  }
+
+  span {
+    font-style: italic;
+    font-weight: 400;
+  }
+}
