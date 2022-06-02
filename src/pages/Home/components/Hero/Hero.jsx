@@ -31,7 +31,7 @@ export default function Hero() {
           <input
             type="hidden"
             name="x-sheetmonkey-redirect"
-            value="https://dwellainc.com/#/registered"
+            value="https://dwellainvesting.com/#/registered"
           />
           <Button
             className="btn-primary hero-button"

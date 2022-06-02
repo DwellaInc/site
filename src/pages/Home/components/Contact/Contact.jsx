@@ -18,7 +18,7 @@ export default function Contact() {
             <input
               type="hidden"
               name="_next"
-              value="https://dwellainc.com/#/thank-you"
+              value="https://dwellainvesting.com/#/thank-you"
             />
             <input type="hidden" name="_captcha" value="false" />
             <input
