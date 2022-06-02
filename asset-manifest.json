@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.c9eb60f1.chunk.css",
-    "main.js": "/static/js/main.ee2b97af.chunk.js",
-    "main.js.map": "/static/js/main.ee2b97af.chunk.js.map",
+    "main.css": "/static/css/main.b51f4964.chunk.css",
+    "main.js": "/static/js/main.a76616c0.chunk.js",
+    "main.js.map": "/static/js/main.a76616c0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b01f5e21.js",
     "runtime-main.js.map": "/static/js/runtime-main.b01f5e21.js.map",
     "static/js/2.ffec752e.chunk.js": "/static/js/2.ffec752e.chunk.js",
     "static/js/2.ffec752e.chunk.js.map": "/static/js/2.ffec752e.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.c9eb60f1.chunk.css.map": "/static/css/main.c9eb60f1.chunk.css.map",
+    "static/css/main.b51f4964.chunk.css.map": "/static/css/main.b51f4964.chunk.css.map",
     "static/js/2.ffec752e.chunk.js.LICENSE.txt": "/static/js/2.ffec752e.chunk.js.LICENSE.txt",
     "static/media/About-UsArtboard-1.a4692833.png": "/static/media/About-UsArtboard-1.a4692833.png",
     "static/media/About-UsArtboard-2.1cdfa1f9.png": "/static/media/About-UsArtboard-2.1cdfa1f9.png",
@@ -39,7 +39,7 @@
   "entrypoints": [
     "static/js/runtime-main.b01f5e21.js",
     "static/js/2.ffec752e.chunk.js",
-    "static/css/main.c9eb60f1.chunk.css",
-    "static/js/main.ee2b97af.chunk.js"
+    "static/css/main.b51f4964.chunk.css",
+    "static/js/main.a76616c0.chunk.js"
   ]
 }
