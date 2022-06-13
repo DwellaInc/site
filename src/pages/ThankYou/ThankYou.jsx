@@ -37,7 +37,7 @@ export default function ThankYou({ type }) {
   const contact = () => {
     return (
       <div className="thank-you-msg">
-        <h3>Thank you for you message!</h3>
+        <h3>Thank you for your message!</h3>
         <p>We will get back to you as soon as we can.</p>
       </div>
     );
